@@ -1,0 +1,24 @@
+{
+  "name": "GenesisRobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.0",
+    "@openzeppelin/hardhat-upgrades": "^1.19.1",
+    "ethers": "^5.6.9",
+    "hardhat": "^2.10.1",
+    "web3": "^1.7.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.2",
+    "@openzeppelin/contracts-upgradeable": "^4.7.2",
+    "surya": "^0.4.6"
+  }
+}
